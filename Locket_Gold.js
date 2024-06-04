@@ -40,8 +40,8 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
 
   for (const entitlement of entitlements) {
     jsonToUpdate.subscriber.entitlements[entitlement] = {
-      "purchase_date": "2006-04-03T01:01:01Z",
-      "original_purchase_date": "2006-04-03T01:01:01Z",
+      "purchase_date": "2024-06-04T01:01:01Z",
+      "original_purchase_date": "2024-06-04T01:01:01Z",
       "expires_date": "9692-01-01T01:01:01Z",
       "is_sandbox" : false,
       "ownership_type": "PURCHASED",
@@ -52,8 +52,8 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
     // Add product identifier to subscriptions
     jsonToUpdate.subscriber.subscriptions[productIdentifier] = {
       "expires_date": "9692-01-01T01:01:01Z",
-      "original_purchase_date": "2006-04-03T01:01:01Z",
-      "purchase_date": "2006-04-03T01:01:01Z",
+      "original_purchase_date": "2024-06-04T01:01:01Z",
+      "purchase_date": "2024-06-04T01:01:01Z",
       "is_sandbox" : false,
       "ownership_type": "PURCHASED",
       "store": "app_store"
